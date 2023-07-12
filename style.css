@@ -1,0 +1,13 @@
+div{
+    aspect-ratio: 16/9;
+    background:
+      radial-gradient(circle at 8%, transparent, transparent calc(4% - 1px), purple 4%, purple 6%, transparent calc(6% + 1px)),
+      /* Using calc on the radial-gradient softens the hard edges wihtout looking blury when scaled up. */
+      conic-gradient(from -45deg at 20%, transparent, transparent 270deg, yellow 270deg, yellow),
+      conic-gradient(from -45deg at 26%, transparent, transparent 270deg, white 270deg, white),
+      conic-gradient(from -45deg at 32%, transparent, transparent 270deg, pink 270deg, pink),
+      conic-gradient(from -45deg at 38%, transparent, transparent 270deg, skyblue 270deg, skyblue),
+      conic-gradient(from -45deg at 44%, transparent, transparent 270deg, brown 270deg, brown),
+      conic-gradient(from -45deg , transparent, transparent 270deg, black 270deg, black),
+      linear-gradient(red, red 16.6%, orange 16.6%, orange 33.2%, yellow 33.2%, yellow 49.8%, green 49.8%, green 66.4%, blue 66.4%, blue 83%, purple 83%);
+  }
